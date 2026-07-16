@@ -1,3 +1,4 @@
+// SQLite database connection and URL table initialization
 const sqlite3 = require("sqlite3").verbose();
 const path = require("path");
 
