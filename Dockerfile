@@ -1,3 +1,4 @@
+# Docker configuration for running Personal URL Shortener API
 FROM node:20
 
 WORKDIR /app
