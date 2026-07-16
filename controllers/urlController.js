@@ -64,6 +64,7 @@ QRCode.toDataURL(shortUrl, (err, qrCode) => {
 };
 
 // Redirect
+// Redirect short URL to original URL and track visits
 const redirectUrl = (req, res) => {
 
     const shortCode = req.params.shortCode;
