@@ -18,7 +18,7 @@ const shortenUrl = (req, res) => {
     if (!validator.isURL(longUrl)) {
         return res.status(400).json({
             success: false,
-            message: "Invalid URL"
+            message: "Please provide a valid URL"
         });
     }
 
