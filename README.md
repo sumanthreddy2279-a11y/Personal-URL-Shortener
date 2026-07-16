@@ -472,6 +472,3 @@ Implemented features:
 - SQLite database integration
 - JWT authentication
 - Swagger documentation
-- Docker support
-
-The project is ready for submission.
