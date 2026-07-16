@@ -1,3 +1,4 @@
+// Utility function to generate unique short URL codes
 const { nanoid } = require("nanoid");
 
 function generateCode() {
